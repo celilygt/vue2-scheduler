@@ -254,7 +254,7 @@
         this.matches = {};
         this.md = [];
         axios({
-          url:'http://api.football-data.org/v2/competitions/2021/matches?dateFrom='+this.date+'&dateTo='+this.date,
+          url:'https://api.football-data.org/v2/competitions/2021/matches?dateFrom='+this.date+'&dateTo='+this.date,
           method:'GET',
           headers:{
             'X-Auth-Token': 'e91ccd273e854e68bdc11f33b698d3e7'
